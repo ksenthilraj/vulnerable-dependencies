@@ -11,13 +11,13 @@
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
     
     <!-- Vulnerable direct dependencies -->
-    <PackageVersion Include="Newtonsoft.Json" Version="12.0.3" />  <!-- Has known vulnerabilities -->
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />  <!-- Has known vulnerabilities -->
     <PackageVersion Include="System.Text.RegularExpressions" Version="4.3.0" /> <!-- Known regex vulnerability -->
     <PackageVersion Include="System.Net.Http" Version="4.3.0" /> <!-- Contains security vulnerabilities -->
     
     <!-- API dependencies -->
     <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" /> <!-- Intentionally older version -->
-    <PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.0" /> <!-- Older version -->
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.11" /> <!-- Older version -->
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.2.3" /> <!-- Outdated version -->
     
