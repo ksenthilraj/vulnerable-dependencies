@@ -23,7 +23,7 @@
     
     <!-- Library dependencies with transitive vulnerabilities -->
     <PackageVersion Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" /> <!-- Has vulnerable dependencies -->
-    <PackageVersion Include="Microsoft.Data.OData" Version="5.8.4" /> <!-- Contains vulnerable dependency chain -->
+    <PackageVersion Include="Microsoft.Data.OData" Version="5.8.5" /> <!-- Contains vulnerable dependency chain -->
     
     <!-- Utility dependencies -->
     <PackageVersion Include="log4net" Version="2.0.12" /> <!-- Has known vulnerabilities -->
